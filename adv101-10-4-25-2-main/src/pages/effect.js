@@ -31,7 +31,7 @@ export default function Effect() {
             <h1>⏱ STOPWATCH</h1>
             <h2>{time}</h2>
             <div>
-            <button 
+            <button
                 onClick={handleStartStop} style ={{ marginRight: "10px", fontSize: "12px" }}
                 className="mt-2 border-1 p-2">
                     {running ? 'STOP' :  'START'}
